@@ -1,0 +1,211 @@
+2026-03-12 21:07:47 | INFO  | ROUND BAR XLSM builder starting...
+2026-03-12 21:07:47 | INFO  | Working folder: C:\Users\jyoth\Desktop\NESTING EXCEL\new
+2026-03-12 21:07:47 | INFO  | Closing Excel processes...
+2026-03-12 21:07:47 | INFO  | Python command: py
+2026-03-12 21:07:47 | INFO  | Checking pywin32...
+2026-03-12 21:07:47 | INFO  | pywin32 already available.
+2026-03-12 21:07:47 | INFO  | Running build_xlsm.py...
+2026-03-12 21:07:47 | INFO  | build_xlsm.py starting
+2026-03-12 21:07:47 | INFO  | Working folder: C:\Users\jyoth\Desktop\NESTING EXCEL\new
+2026-03-12 21:07:47 | INFO  | Output XLSM: C:\Users\jyoth\Desktop\NESTING EXCEL\new\ROUND_BAR_Nesting_Template.xlsm
+2026-03-12 21:07:47 | INFO  | BAS file: C:\Users\jyoth\Desktop\NESTING EXCEL\new\modRoundBarNesting.bas
+2026-03-12 21:07:47 | INFO  | Validation JSON: C:\Users\jyoth\Desktop\NESTING EXCEL\new\ROUND_BAR_Nesting_Template.validation.json
+2026-03-12 21:07:47 | INFO  | DispatchEx Excel.Application
+2026-03-12 21:07:48 | INFO  | Creating new workbook from scratch
+2026-03-12 21:07:48 | INFO  | Resizing sheet count to exactly 6
+2026-03-12 21:07:48 | INFO  | Renaming sheets to required order
+2026-03-12 21:07:48 | INFO  | Building INPUT_PARTS
+2026-03-12 21:07:48 | INFO  | Creating named ranges
+2026-03-12 21:07:48 | INFO  | Creating tblParts starting at row 110
+2026-03-12 21:07:48 | INFO  | Creating table tblParts on INPUT_PARTS at $A$110:$L$111
+2026-03-12 21:07:48 | INFO  | Applying safe formulas to tblParts
+2026-03-12 21:07:48 | INFO  | Attempting input validations
+2026-03-12 21:07:48 | INFO  | Building MATERIAL_SUMMARY
+2026-03-12 21:07:48 | INFO  | Creating table tblMat on MATERIAL_SUMMARY at $A$1:$I$2
+2026-03-12 21:07:48 | INFO  | Building PURCHASE_PLAN
+2026-03-12 21:07:48 | INFO  | Creating table tblPurchase on PURCHASE_PLAN at $A$1:$M$2
+2026-03-12 21:07:48 | INFO  | Building NEST_BASIC plain sheet
+2026-03-12 21:07:48 | INFO  | Building NEST_FINAL
+2026-03-12 21:07:49 | INFO  | Creating table tblNestFinal on NEST_FINAL at $A$1:$J$2
+2026-03-12 21:07:49 | INFO  | Building CUTLIST
+2026-03-12 21:07:49 | INFO  | Creating table tblCutlist on CUTLIST at $A$1:$H$2
+2026-03-12 21:07:49 | INFO  | Auto-fitting columns
+2026-03-12 21:07:49 | INFO  | Checking VBA project access before import
+2026-03-12 21:07:49 | INFO  | Checking VBProject access...
+2026-03-12 21:07:49 | INFO  | Importing BAS module into VBProject
+2026-03-12 21:07:49 | INFO  | Injecting ThisWorkbook.Workbook_Open
+2026-03-12 21:07:49 | INFO  | Saving workbook as XLSM
+2026-03-12 21:07:49 | INFO  | Running seed self-tests
+2026-03-12 21:07:49 | INFO  | Self-test seed 11: ResetDemoData
+2026-03-12 21:07:49 | INFO  | Self-test seed 11: GenerateDemoData
+2026-03-12 21:07:49 | INFO  | Self-test seed 11: RunFinalNesting
+2026-03-12 21:07:49 | INFO  | Self-test seed 11: reading final nesting and purchase plan
+2026-03-12 21:07:49 | INFO  | Self-test seed 11 complete. purchased_match=True, totaldrop_match_all_rows=True, formula_errors=0
+2026-03-12 21:07:49 | INFO  | Self-test seed 22: ResetDemoData
+2026-03-12 21:07:49 | INFO  | Self-test seed 22: GenerateDemoData
+2026-03-12 21:07:49 | INFO  | Self-test seed 22: RunFinalNesting
+2026-03-12 21:07:50 | INFO  | Self-test seed 22: reading final nesting and purchase plan
+2026-03-12 21:07:50 | INFO  | Self-test seed 22 complete. purchased_match=True, totaldrop_match_all_rows=True, formula_errors=0
+2026-03-12 21:07:50 | INFO  | Self-test seed 33: ResetDemoData
+2026-03-12 21:07:50 | INFO  | Self-test seed 33: GenerateDemoData
+2026-03-12 21:07:50 | INFO  | Self-test seed 33: RunFinalNesting
+2026-03-12 21:07:50 | INFO  | Self-test seed 33: reading final nesting and purchase plan
+2026-03-12 21:07:50 | INFO  | Self-test seed 33 complete. purchased_match=True, totaldrop_match_all_rows=True, formula_errors=0
+2026-03-12 21:07:50 | INFO  | Self-test seed 44: ResetDemoData
+2026-03-12 21:07:50 | INFO  | Self-test seed 44: GenerateDemoData
+2026-03-12 21:07:50 | INFO  | Self-test seed 44: RunFinalNesting
+2026-03-12 21:07:50 | INFO  | Self-test seed 44: reading final nesting and purchase plan
+2026-03-12 21:07:50 | INFO  | Self-test seed 44 complete. purchased_match=True, totaldrop_match_all_rows=True, formula_errors=0
+2026-03-12 21:07:50 | INFO  | Self-test seed 55: ResetDemoData
+2026-03-12 21:07:50 | INFO  | Self-test seed 55: GenerateDemoData
+2026-03-12 21:07:50 | INFO  | Self-test seed 55: RunFinalNesting
+2026-03-12 21:07:50 | INFO  | Self-test seed 55: reading final nesting and purchase plan
+2026-03-12 21:07:50 | INFO  | Self-test seed 55 complete. purchased_match=True, totaldrop_match_all_rows=True, formula_errors=0
+2026-03-12 21:07:50 | INFO  | Writing validation JSON
+2026-03-12 21:07:50 | INFO  | Saving workbook after self-tests
+2026-03-12 21:07:51 | INFO  | build_xlsm.py completed successfully
+2026-03-12 21:07:51 | INFO  | Closing workbook
+2026-03-12 21:07:51 | INFO  | Quitting Excel
+{
+  "build": {
+    "final_saved": true,
+    "warnings": [],
+    "traceback": null
+  },
+  "selftests": [
+    {
+      "seed": 11,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11088.0,
+        "sum_purchased_len_from_plan": 11088.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "seed": 22,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11184.0,
+        "sum_purchased_len_from_plan": 11184.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "seed": 33,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11472.0,
+        "sum_purchased_len_from_plan": 11472.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "seed": 44,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11760.0,
+        "sum_purchased_len_from_plan": 11760.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "seed": 55,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11712.0,
+        "sum_purchased_len_from_plan": 11712.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    }
+  ],
+  "reconciliation": {
+    "executed": true,
+    "tolerance": 1e-06,
+    "details": [
+      {
+        "seed": 11,
+        "sum_bar_buy_lengths_from_final": 11088.0,
+        "sum_purchased_len_from_plan": 11088.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      },
+      {
+        "seed": 22,
+        "sum_bar_buy_lengths_from_final": 11184.0,
+        "sum_purchased_len_from_plan": 11184.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      },
+      {
+        "seed": 33,
+        "sum_bar_buy_lengths_from_final": 11472.0,
+        "sum_purchased_len_from_plan": 11472.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      },
+      {
+        "seed": 44,
+        "sum_bar_buy_lengths_from_final": 11760.0,
+        "sum_purchased_len_from_plan": 11760.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      },
+      {
+        "seed": 55,
+        "sum_bar_buy_lengths_from_final": 11712.0,
+        "sum_purchased_len_from_plan": 11712.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    ],
+    "all_passed": true
+  }
+}
+2026-03-12 21:07:51 | INFO  | Build completed successfully.
+2026-03-12 21:07:51 | INFO  | Validation JSON: C:\Users\jyoth\Desktop\NESTING EXCEL\new\ROUND_BAR_Nesting_Template.validation.json

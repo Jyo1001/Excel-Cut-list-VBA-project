@@ -1,0 +1,141 @@
+{
+  "build": {
+    "final_saved": true,
+    "warnings": [],
+    "traceback": null
+  },
+  "selftests": [
+    {
+      "seed": 11,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11088.0,
+        "sum_purchased_len_from_plan": 11088.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "seed": 22,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11184.0,
+        "sum_purchased_len_from_plan": 11184.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "seed": 33,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11472.0,
+        "sum_purchased_len_from_plan": 11472.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "seed": 44,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11760.0,
+        "sum_purchased_len_from_plan": 11760.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "seed": 55,
+      "executed": true,
+      "runtime_error": null,
+      "formula_errors": [],
+      "reconciliation": {
+        "sum_bar_buy_lengths_from_final": 11712.0,
+        "sum_purchased_len_from_plan": 11712.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    }
+  ],
+  "reconciliation": {
+    "executed": true,
+    "tolerance": 1e-06,
+    "details": [
+      {
+        "seed": 11,
+        "sum_bar_buy_lengths_from_final": 11088.0,
+        "sum_purchased_len_from_plan": 11088.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      },
+      {
+        "seed": 22,
+        "sum_bar_buy_lengths_from_final": 11184.0,
+        "sum_purchased_len_from_plan": 11184.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      },
+      {
+        "seed": 33,
+        "sum_bar_buy_lengths_from_final": 11472.0,
+        "sum_purchased_len_from_plan": 11472.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      },
+      {
+        "seed": 44,
+        "sum_bar_buy_lengths_from_final": 11760.0,
+        "sum_purchased_len_from_plan": 11760.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      },
+      {
+        "seed": 55,
+        "sum_bar_buy_lengths_from_final": 11712.0,
+        "sum_purchased_len_from_plan": 11712.0,
+        "purchased_match": true,
+        "totaldrop_match_all_rows": true,
+        "plan_rows_checked": 20,
+        "mismatches": [],
+        "tolerance": 1e-06
+      }
+    ],
+    "all_passed": true
+  }
+}
